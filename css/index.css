@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    font-family: "Josefin Sans", serif;
+    background-color: #161a28;
+}
+
+.item{
+    position: relative;
+    cursor: pointer;
+}
+.item-caption{
+    position: absolute;
+    bottom:3%;
+    left:3%;
+    right:3%;
+}
+.box-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.box{
+   
+    height: 75vh;
+    width: 50%;
+    background-image: url('../images/Portfolio/portfolio-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.box-modal i{
+    cursor: pointer;
+}
